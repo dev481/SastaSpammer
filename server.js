@@ -34,7 +34,7 @@ app.get("/dreams", (request, response) => {
 const keepAlive = require("./kek.js");
 keepAlive();
 
-//sasta code keks
+//sasta spammer code keks
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
@@ -48,8 +48,9 @@ client.on('message', msg => {
   }
 });
 
-client.on("message", msg => {
+client.on("message", msg => 
   if (msg.content === 'WTF SA' && msg.channel.id == '719486191992307793' || msg.channel.id == "719504108201181237"   )
+
     msg.channel.send('WTF SA')
   })
 
@@ -70,4 +71,5 @@ client.on("message", msg => {
 
 //client.login('ViNzQ2NjcyMD120Tg2NDc5NjE2.X0DvBA.c2BuqNTme0HQkqLYEx_CV3WPIKM');
 //client.login("ViNzQ2NjcyMD120Tg2NDc5NjE2.X0DvBA.c2BuqNTme0HQkqLYEx_CV3WPIKM")
-client.login("NzQ2OTQwMTQwMTM1MzgzMDg4.X0HohA.fRTxmjA01pbe6dIHMuFumQStEaI")
+//client.login("NzQ2OTQwMTQw4.X0HohA.fRTxmjA01pbe6dIHMuFumQStEaI")=======
+client.login('TOKEN SAALE TOKEN');
