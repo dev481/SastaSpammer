@@ -34,7 +34,7 @@ app.get("/dreams", (request, response) => {
 const keepAlive = require("./kek.js");
 keepAlive();
 
-//sasta spammer code keks
+//sasta code keks
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
@@ -42,15 +42,26 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
+/*lient.on("message", message => { 
+  if (message.content === "++shutdown") {
+ // if (msg.author.id == "492660010074243073") //return msg.channel.send("nui"); 
+  //if (msg.content === "++shutdown" && msg.author.id == "492660010074243073") //msg.channel.send("u can't execute  cmd")
+    message.channel.send("stopping spammer")
+   client.destroy()
+  client.login("NzQ3NjMzMzUzOTI2MTE1NDE5.X0RvXg.vN6ucNv1wGiPS-lF3kbN9-96p_U")
+  message.channel.send("done sa")
+  }
+  
+})*/
+
 client.on('message', msg => {
-  if (msg.content === 'lul1') {
-    msg.channel.send('lul1');
+  if (msg.content === 'keks1') {
+    msg.channel.send('keks1');
   }
 });
 
-client.on("message", msg => 
+client.on("message", msg => {
   if (msg.content === 'WTF SA' && msg.channel.id == '719486191992307793' || msg.channel.id == "719504108201181237"   )
-
     msg.channel.send('WTF SA')
   })
 
@@ -59,17 +70,24 @@ client.on("message", msg => {
     msg.channel.send("FUCK U DEVI EARNY")
   })
 
-client.on("message", msg => {
-  if (msg.content === "++restart");
-  if (msg.author.id === "492660010074243073"); else msg.channel.send("nui") //msg.channel.send("u can't execute  cmd")
+/*lient.on("message", msg => {
+  if (msg.content === "++shutdown");
+  if (msg.author.id != "492660010074243073") return msg.channel.send("nui"); 
+  if (msg.content === "++shutdown")//msg.channel.send("u can't execute  cmd")
     msg.channel.send("stopping spammer");
    client.destroy();
-  client.login("NzQ2OTQwMTQwMTM1MzgzMDg4.X0HohA.fRTxmjA01pbe6dIHMuFumQStEaI");
+  //client.login("NzQ3NjMzMzUzOTI2MTE1NDE5.X0Ry_w.fCDkZG2zonlS6RbLqGcujNdlFNY");
+  msg.channel.send("done sa")
   
  // msg.channel.send("m again ready to use")
-})
-
+})*/
+ 
 //client.login('ViNzQ2NjcyMD120Tg2NDc5NjE2.X0DvBA.c2BuqNTme0HQkqLYEx_CV3WPIKM');
 //client.login("ViNzQ2NjcyMD120Tg2NDc5NjE2.X0DvBA.c2BuqNTme0HQkqLYEx_CV3WPIKM")
-//client.login("NzQ2OTQwMTQw4.X0HohA.fRTxmjA01pbe6dIHMuFumQStEaI")=======
-client.login('TOKEN SAALE TOKEN');
+
+const keks = require("./lel.js");
+keks();
+
+
+client.login("")
+
