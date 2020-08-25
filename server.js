@@ -49,10 +49,25 @@ client.on('message', msg => {
 });
 
 client.on("message", msg => {
-  if (msg.content === 'WTF SA' && msg.channel.id == '719486191992307793')
+  if (msg.content === 'WTF SA' && msg.channel.id == '719486191992307793' || msg.channel.id == "719504108201181237"   )
     msg.channel.send('WTF SA')
   })
 
+client.on("message", msg => {
+  if (msg.content === "FUCK U DEVI EARNY")
+    msg.channel.send("FUCK U DEVI EARNY")
+  })
 
+client.on("message", msg => {
+  if (msg.content === "++restart");
+  if (msg.author.id === "492660010074243073"); else msg.channel.send("nui") //msg.channel.send("u can't execute  cmd")
+    msg.channel.send("stopping spammer");
+   client.destroy();
+  client.login("NzQ2OTQwMTQwMTM1MzgzMDg4.X0HohA.fRTxmjA01pbe6dIHMuFumQStEaI");
+  
+ // msg.channel.send("m again ready to use")
+})
 
-client.login('NzQ2NjI3OTc1NDIzOTgzNjg4.X0DFuw.5uoJsK-orPt23qvNpWQp4SjkOvM');
+//client.login('ViNzQ2NjcyMD120Tg2NDc5NjE2.X0DvBA.c2BuqNTme0HQkqLYEx_CV3WPIKM');
+//client.login("ViNzQ2NjcyMD120Tg2NDc5NjE2.X0DvBA.c2BuqNTme0HQkqLYEx_CV3WPIKM")
+client.login("NzQ2OTQwMTQwMTM1MzgzMDg4.X0HohA.fRTxmjA01pbe6dIHMuFumQStEaI")
